@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog @ UHCStaffing</title>
+    <meta name="description"
+        content="Stay updated with the latest news and insights from UHC Staffing. Explore articles on nursing, allied health, and other healthcare topics.">
+    <meta name="keywords"
+        content="UHC Staffing, healthcare blog, nursing jobs, allied health careers, healthcare insights">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Blog | UHC Staffing - Healthcare News & Insights">
+    <meta property="og:description"
+        content="Stay updated with the latest news and insights from UHC Staffing. Explore articles on nursing, allied health, and other healthcare topics.">
+    <meta property="og:image" content="https://www.uhcstaffing.com/images/logo.png">
+    <meta property="og:url" content="https://www.uhcstaffing.com/blog">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog | UHC Staffing - Healthcare News & Insights">
+    <meta name="twitter:description"
+        content="Stay updated with the latest news and insights from UHC Staffing. Explore articles on nursing, allied health, and other healthcare topics.">
+    <meta name="twitter:image" content="https://www.uhcstaffing.com/images/logo.png">
+    <meta name="twitter:site" content="@uhcstaffing">
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Urbanist:ital,wght@0,100..900;1,100..900&amp;display=swap");
+    </style>
+
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://www.uhcstaffing.com/static/css/styles.css" />
+    <link href="https://www.uhcstaffing.com/static/css/about.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body class="urbanist-main w-min-content md:w-full flex flex-col items-center bg-gray-50 h-min-content">
+
+    <div class="mb-[11rem] w-[100vw]"></div>
+    <nav class="bg-white w-full fixed top-0 z-[100] shadow py-3">
+        <div class="mx-auto px-4 my-2 flex items-center justify-between">
+            <!-- Brand -->
+            <a href="/" class="flex items-center">
+                <img src="images/logo.png" alt="Logo" class="h-16 md:h-24 w-auto object-contain" />
+                <span class="ml-2 font-bold text-white text-lg">UHC</span>
+            </a>
+            <!-- Menu -->
+            <div class="flex flex-row gap-8 items-center space-x-4">
+
+                <div id="nav-menu" class="hidden lg:!flex items-center space-x-6">
+                    <ul class="flex flex-col lg:flex-row lg:space-x-6 space-y-2 lg:space-y-0">
+                        <li><a href="/" class="text-gray-700 hover:text-blue-600">Home</a></li>
+                        <li><a href="/about" class="text-gray-700 hover:text-blue-600">About Us</a></li>
+                        <li><a href="/jobs" class="text-gray-700 hover:text-blue-600">Jobs</a></li>
+                        <li><a href="/client" class="text-gray-700 hover:text-blue-600">Clients</a></li>
+                        <li><a href="/blog" class="text-gray-700 hover:text-blue-600">Blog</a></li>
+                        <li><a href="/contact" class="text-gray-700 hover:text-blue-600">Contact Us</a></li>
+                        <li><a href="/referral" class="text-gray-700 hover:text-blue-600">Referral</a></li>
+                    </ul>
+                </div>
+
+                <div id="chat-btn"
+                    class="relative p-0 rounded-[4rem] text-white md:bg-white flex justify-center items-center flex-col">
+                    <img src="images/chat.png" alt="Chat Icon" class="inline-block h-12 w-12 md:h-16 md:w-16">
+                    <a href="#"
+                        class="button font-bold w-full text-center px-2 text-xs md:text-base text-white inline-block bg-[#0D5C91] rounded-full py-2 hover:bg-blue-700">
+                        Chat With Us
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Mobile toggle -->
+            <button id="nav-toggler" class="lg:hidden focus:outline-none">
+                <svg class="h-6 w-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+
+        </div>
+    </nav>
+
+
+    <section class="custom-section banner-wrapper">
+        <div class="container">
+            <div class="box-wrapper hideup grad relative flex flex-col items-center justify-between h-[30rem] md:h-[32rem]
+      text-white rounded-[2rem] mt-4 shadow-2xl boxshadow shadow-gray-500">
+                <div class="w-full">
+                    <div class="flex flex-col w-full items-center text-center relative">
+                        <!-- Title -->
+                        <div class="flex flex-col pb-36 items-center w-full">
+                            <h1
+                                class="lg:text-[9rem] md:text-[8rem] mb-12 leading-[12rem] text-[4rem] w-full font-extrabold">
+                                Blogs
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor Image -->
+                <div class="absolute bottom-0 overflow-clip">
+                    <img src="images/blog_header.png" alt="UHC Staffing Blog Header showcasing healthcare professionals"
+                        class="h-[20rem] md:h-[18rem] w-auto object-cover rounded-lg" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- blog-wrapper Start -->
+    <section class="custom-section blog-wrapper">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full">
+                    <div class="text-center mb-8">
+                        <p class="text-sm text-[#0D5C91] font-medium">Blog Archive</p>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold mt-2">Every Insight, In One Place </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-blog-container">
+            <div class="container">
+                <div class="flex flex-wrap -mx-2 items-center">
+                    <div class="w-full sm:w-1/2 md:w-5/12 px-2">
+                        <div class="custom-blog-content">
+                            <div class="custom-blog-tags">
+                                <span class="custom-blog-tag">
+                                    Career Advice
+                                </span>
+                                <span class="custom-blog-tag">
+                                    Travel Nursing
+                                </span>
+                            </div>
+                            <h2 class="custom-blog-title">
+                                Explore Top RN Nursing Jobs Across the US with UHC Staffing
+                            </h2>
+                            <div class="custom-blog-image mobile">
+                                <img src="images/blog-1.png" alt="Nurse looking at USA map opportunities"
+                                    class="max-w-full h-auto w-full">
+                            </div>
+                            <div class="csutom-blog-auther">
+                                <span class="date">
+                                    Nov-27-2025
+                                </span>
+                            </div>
+                            <p class="custom-blog-description">
+                                Discover high-demand Registered Nurse opportunities nationwide. From travel contracts to
+                                permanent placements, find out how to land the best jobs with competitive pay in top US
+                                facilities.
+                            </p>
+                            <a href="#" class="custom-blog-btn">
+                                Read Full Article
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-full sm:w-1/2 md:w-7/12 px-2">
+                        <div class="custom-blog-image desktop">
+                            <img src="images/blog-1.png" alt="Nurse looking at USA map opportunities"
+                                class="max-w-full h-auto w-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-cover-wrapper">
+            <div class="container">
+                <div class="blog-cover">
+                    <div class="all-post-cover">
+                        <div class="all-post-box-row">
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image1.png" alt="Nurse with suitcase at airport"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Travel Nursing</span></li>
+                                                    <li><span class="blog-post-tag">Nursing Jobs</span></li>
+                                                    <li><span class="blog-post-tag">Career Advice</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">The Ultimate Guide to Starting Your Travel Nursing
+                                                Career in 2025</h3>
+                                            <div class="blog-date">
+                                                <span class="date">November 20, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                Dreaming of higher pay and adventure? Discover how travel nursing works,
+                                                the benefits of 13-week contracts, and how UHC Staffing helps you land
+                                                assignments in top US destinations.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image2.png"
+                                                alt="Physical Therapist working with patient"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Allied Health</span></li>
+                                                    <li><span class="blog-post-tag">Therapy Jobs</span></li>
+                                                    <li><span class="blog-post-tag">Healthcare Trends</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">Beyond Nursing: Why Allied Health Pros Are in High
+                                                Demand</h3>
+                                            <div class="blog-date">
+                                                <span class="date">November 15, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                Physical Therapists, Radiology Techs, and Lab pros are essential to
+                                                patient care. Explore the growing demand for Allied Health professionals
+                                                and the salary trends driving this sector.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image3.png" alt="Person writing resume on laptop"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Resume Tips</span></li>
+                                                    <li><span class="blog-post-tag">Job Search Tips</span></li>
+                                                    <li><span class="blog-post-tag">Career Advice</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">5 Resume Mistakes That Are Costing You the Best
+                                                Healthcare Jobs</h3>
+                                            <div class="blog-date">
+                                                <span class="date">November 10, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                Is your resume getting rejected? Learn the top formatting errors nurses
+                                                and clinicians make and how to fix them to catch a recruiter's eye
+                                                instantly.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image4.png" alt="Nurse relaxing with coffee"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Mental Health Awareness</span></li>
+                                                    <li><span class="blog-post-tag">Work-Life Balance</span></li>
+                                                    <li><span class="blog-post-tag">Nurse Life</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">Combating Burnout: Self-Care Strategies for
+                                                Healthcare Heroes</h3>
+                                            <div class="blog-date">
+                                                <span class="date">November 05, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                Long shifts and emotional stress take a toll. Here are practical mental
+                                                health tips and wellness strategies to help you stay healthy while
+                                                caring for others.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image5.png" alt="Calendar with flexible schedule"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Per Diem Nursing</span></li>
+                                                    <li><span class="blog-post-tag">Locum Tenens</span></li>
+                                                    <li><span class="blog-post-tag">Staffing Solutions</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">Per Diem vs. Permanent: Which Work Style Fits Your
+                                                Lifestyle?</h3>
+                                            <div class="blog-date">
+                                                <span class="date">October 28, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                Do you value stability or flexibility? We break down the pros and cons
+                                                of full-time staff roles versus per diem and contract shifts to help you
+                                                decide.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image6.png" alt="Nurse in an interview setting"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Interview Preparation</span></li>
+                                                    <li><span class="blog-post-tag">Professional Growth</span></li>
+                                                    <li><span class="blog-post-tag">Career Advice</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">Ace Your Nursing Interview: Top Questions and How to
+                                                Answer Them</h3>
+                                            <div class="blog-date">
+                                                <span class="date">October 22, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                Nervous about your next interview? Review the most common clinical and
+                                                behavioral questions hiring managers ask and learn how to structure your
+                                                answers using the STAR method.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image7.png" alt="Doctors discussing chart"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Nursing Shortage</span></li>
+                                                    <li><span class="blog-post-tag">Healthcare Industry News</span></li>
+                                                    <li><span class="blog-post-tag">Hospital Staffing</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">Addressing the Nursing Shortage: What It Means for
+                                                Your Career</h3>
+                                            <div class="blog-date">
+                                                <span class="date">October 15, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                The US nursing shortage is creating unique leverage for nurses. Learn
+                                                how this trend affects salary negotiations, sign-on bonuses, and
+                                                staffing ratios in 2025.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="blog-post-col">
+                                <a href="blog-detail.html" target="_blank" class="blog-post-link">
+                                    <div class="blog-post-box">
+                                        <div class="blog-post-image">
+                                            <img src="images/blog-image8.png" alt="Young new grad nurses celebrating"
+                                                class="max-w-full h-auto w-full">
+                                        </div>
+                                        <div class="blog-post-content">
+                                            <div class="blog-post-tag-list">
+                                                <ul>
+                                                    <li><span class="blog-post-tag">Healthcare Careers</span></li>
+                                                    <li><span class="blog-post-tag">Recruitment Process</span></li>
+                                                    <li><span class="blog-post-tag">Professional Growth</span></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="blog-title">New Grad Nurse Survival Guide: Tips for Your First
+                                                Year</h3>
+                                            <div class="blog-date">
+                                                <span class="date">October 08, 2025</span>
+                                            </div>
+                                            <p class="blog-describe">
+                                                Transitioning from student to RN is a big leap. Here is essential advice
+                                                for new graduates on finding the right mentorship, handling shift work,
+                                                and building confidence.
+                                            </p>
+                                            <span class="blog-link-btn">Read more</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="all-blog-tag-cover md:col-span-1 md:sticky md:top-48 md:self-start md:space-y-6">
+                        <div class="all-blog-tag-box">
+                            <div class="blog-tags-search">
+                                <div class="flex mb-3 input-group">
+                                    <span
+                                        class="inline-flex items-center px-3 text-gray-500 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </span>
+
+                                    <input type="text"
+                                        class="w-full px-3 py-2 border border-gray-300 rounded-r-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        placeholder="Search">
+                                    <div class="suggestions-container"
+                                        style="display: none; position: absolute; background-color: rgb(255, 255, 255); width: 324px; border: 1px solid rgb(204, 204, 204); max-height: 150px; overflow-y: auto; z-index: 1000;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blogs-tabs-container">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h3 class="text-lg font-semibold">Tags</h3>
+                                    <button id="clear-tags-btn"
+                                        class="text-sm text-blue-500 hover:underline">Clear</button>
+                                </div>
+                                <div class="blogs-tabs-list">
+                                    <ul>
+                                        <li><span class="tab-list-content">Nursing Jobs</span></li>
+                                        <li><span class="tab-list-content">Travel Nursing</span></li>
+                                        <li><span class="tab-list-content">Allied Health</span></li>
+                                        <li><span class="tab-list-content">Per Diem Nursing</span></li>
+                                        <li><span class="tab-list-content">Locum Tenens</span></li>
+                                        <li><span class="tab-list-content">Non-Clinical Jobs</span></li>
+                                        <li><span class="tab-list-content">Therapy Jobs</span></li>
+                                        <li><span class="tab-list-content">Career Advice</span></li>
+                                        <li><span class="tab-list-content">Resume Tips</span></li>
+                                        <li><span class="tab-list-content">Interview Preparation</span></li>
+                                        <li><span class="tab-list-content">Healthcare Careers</span></li>
+                                        <li><span class="tab-list-content">Job Search Tips</span></li>
+                                        <li><span class="tab-list-content">Professional Growth</span></li>
+                                        <li><span class="tab-list-content">Work-Life Balance</span></li>
+                                        <li><span class="tab-list-content">Healthcare Trends</span></li>
+                                        <li><span class="tab-list-content">Medical Staffing</span></li>
+                                        <li><span class="tab-list-content">Healthcare Industry News</span></li>
+                                        <li><span class="tab-list-content">Mental Health Awareness</span></li>
+                                        <li><span class="tab-list-content">Nursing Shortage</span></li>
+                                        <li><span class="tab-list-content">Hospital Staffing</span></li>
+                                        <li><span class="tab-list-content">UHC Staffing</span></li>
+                                        <li><span class="tab-list-content">Recruitment Process</span></li>
+                                        <li><span class="tab-list-content">Staffing Solutions</span></li>
+                                        <li><span class="tab-list-content">Why Choose Agency</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog-wrapper End -->
+
+
+
+
+
+
+
+
+    <footer class="border-t w-full border-gray-200 bg-white py-12">
+        <!-- Brand -->
+        <div class="max-w-7xl mx-auto px-4 mb-8">
+            <h2 class="text-2xl font-bold mb-4">
+                <span class="text-[#0D5C91]">UHC</span>
+                <span class="text-[#0D5C91]">Staffing</span>
+            </h2>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Company Links -->
+            <div>
+                <h3 class="font-semibold mb-3">Company</h3>
+                <ul class="space-y-2 text-gray-600">
+                    <li><a href="/" class="hover:text-blue-600">Home</a></li>
+                    <li><a href="/jobs" class="hover:text-blue-600">Find a Job</a></li>
+                    <li><a href="/about" class="hover:text-blue-600">About Us</a></li>
+                    <li><a href="/contact" class="hover:text-blue-600">Contact Us</a></li>
+                    <li><a href="/client" class="hover:text-blue-600">Clients</a></li>
+                </ul>
+            </div>
+
+            <!-- Pages Links -->
+            <div>
+                <h3 class="font-semibold mb-3">Pillars</h3>
+                <ul class="space-y-2 text-gray-600">
+                    <li><a href="/pillars/nursing" class="hover:text-blue-600">Nursing</a></li>
+                    <li><a href="/pillars/allied-health" class="hover:text-blue-600">Allied</a></li>
+                    <li><a href="/pillars/federal-and-school" class="hover:text-blue-600">Federal & Schools</a></li>
+                    <li><a href="/pillars/mental-health" class="hover:text-blue-600">Behavioral & Mental</a></li>
+                    <li><a href="/pillars/therapy" class="hover:text-blue-600">Therapy</a></li>
+                    <li><a href="/pillars/radiology" class="hover:text-blue-600">Radiology</a></li>
+                    <li><a href="/pillars/pharmacy" class="hover:text-blue-600">Pharmacy</a></li>
+                    <li><a href="/pillars/administration-finance" class="hover:text-blue-600">Administrative &
+                            Finance</a></li>
+                    <li><a href="/pillars/manufacturing" class="hover:text-blue-600">Manufacturing</a></li>
+                    <li><a href="/pillars/non-clinical" class="hover:text-blue-600">Non-Clinical</a></li>
+
+                </ul>
+            </div>
+
+            <!-- Address & Inquiries -->
+            <div>
+                <h3 class="font-semibold mb-3">Address</h3>
+                <p class="text-gray-600 mb-1">
+                    1172 Murphy Ave, Ste #227 <br />San Jose, CA 95131, USA
+                </p>
+                <a href="https://maps.google.com" target="_blank"
+                    class="text-[#0D5C91] hover:underline mb-4 inline-block">
+                    View on Maps
+                </a>
+                <h3 class="font-semibold mb-3">Inquiries</h3>
+                <p class="text-gray-600 mb-1"> <a href="tel:(408) 441-9200">(408) 441-9200</a> </p>
+                <a href="/cdn-cgi/l/email-protection#51383f373e11646635343f25323023347f323e3c"
+                    class="text-[#0D5C91] hover:underline">
+                    <span class="__cf_email__"
+                        data-cfemail="02686d607142776a6171766364646b6c652c616d6f">[email&#160;protected]</span>
+                </a>
+            </div>
+
+            <!-- Newsletter & Social -->
+            <div>
+
+
+                <h3 class="font-semibold mb-3">Follow Us</h3>
+                <div class="flex space-x-4 text-gray-600">
+                    <a target="_blank" href="https://www.facebook.com/uhcstaffings" class="hover:text-blue-600"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/@unitedhealthcarestaffing"
+                        class="hover:text-blue-600"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/uhcstaffing"
+                        class="hover:text-blue-600"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/uhcstaffing/" class="hover:text-blue-600"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="w-full text-center text-gray-600 mt-8">
+            Copyright United Healthcare Staffing Inc. © All rights reserved | 2025
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://www.uhcstaffing.com/static/animations.js"></script>
+    <script>
+        // Auto-hide flash messages after 4 seconds
+        setTimeout(() => {
+            document.querySelectorAll('.flash-message').forEach(el => {
+                el.style.transition = "opacity 0.6s";
+                el.style.opacity = "0";
+                setTimeout(() => el.remove(), 600);
+            });
+        }, 4000);
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-PBVBQGN6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-C5X6H1KT9B');
+    </script>
+    <script>
+        // Simple mobile menu toggle
+        document.getElementById('nav-toggler').addEventListener('click', () => {
+            document.getElementById('nav-menu').classList.toggle('hidden');
+            document.getElementById('chat-btn').classList.toggle('hidden');
+        });
+    </script>
+    <script>
+        document.getElementById("chat-btn").addEventListener("click", function () {
+            document.getElementById("bot-btn-ak2m0ak23o").click(); // Trigger click on Button 2
+        });
+    </script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script id="FC-chat-init"
+        src="https://cdn.founderscart.com/app/sensibot/webwidget/assets/js/chatbot.js?id=yRXjN5166Q=="></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
